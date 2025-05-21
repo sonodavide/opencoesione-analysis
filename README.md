@@ -19,7 +19,6 @@ Il secondo obiettivo di questo progetto è mostrare come l'uso di Apache Spark a
 - Altre Fonti:
 	- [ISTAT](https://esploradati.istat.it/databrowser/)
 
----
 
 # Obiettivi
 
@@ -33,20 +32,18 @@ Il secondo obiettivo di questo progetto è mostrare come l'uso di Apache Spark a
 8. [Benchmarking](#benchmarking)
 9. [Dashboard e Visualizzazioni](#dashboard-e-visualizzazioni)
 
----
 
 ## Analisi dei Ritardi
 
 Identificazione e visualizzazione dei progetti in ritardo, considerando tutte le fasi del ciclo di vita (progettazione, esecuzione, collaudo).
 
----
 
 ## Analisi Finanziaria
 
 Analisi dei progetti in cui si osservano finanziamenti sovrastimati o economie elevate rispetto ai fondi stanziati, per facilitare la ripartizione delle risorse
 
 
----
+
 
 ## Modellazione Predittiva
 
@@ -57,7 +54,6 @@ Lo studio sarà suddiviso in tre fasi temporali:
   - **Durante COVID (2020–2021)**
   - **Post-COVID**
 
----
 
 ## Individuazioni fasi critiche
 
@@ -68,7 +64,6 @@ Identificazione delle **fasi più critiche** nel ciclo di vita del progetto tram
 
 Questi valori permetteranno di individuare quali fasi necessitano attenzione in termini di gestione.
 
----
 
 ## Impatto COVID
 
@@ -78,7 +73,6 @@ Analisi comparativa tra i progetti attivati prima, durante e dopo il periodo pan
 - Ritardi
 - Fondi erogati e economie
 
----
 
 ## Grafo bipartito Beneficiari-Attuatori
 
@@ -92,7 +86,6 @@ L’analisi tramite **GraphX (Spark)** permetterà di:
 - Individuare i **nodi centrali**
 - Riconoscere **community** (gruppi di soggetti che collaborano frequentemente)
 
----
 
 ## Analisi Territoriale
 
@@ -102,7 +95,6 @@ Confronto geografico tra Nord, Centro e Sud per:
 - Frequenza e intensità dei ritardi
 - Entità delle economie pubbliche realizzate
 
----
 
 ## Benchmarking
 
@@ -121,7 +113,6 @@ Confronto geografico tra Nord, Centro e Sud per:
 - Performance al crescere del volume dati
 - Gestione della cache e utilizzo della memoria
 
----
 ## Dashboard e Visualizzazioni
 
 Le analisi verranno presentate tramite una **dashboard interattiva** con:
@@ -130,7 +121,6 @@ Le analisi verranno presentate tramite una **dashboard interattiva** con:
 - Indicatori aggregati
 - Funzionalità di filtro per categoria, territorio, soggetto
 
----
 
 ## Colonne e Variabili di Interesse
 
@@ -145,9 +135,6 @@ Trasversalmente a tutte le analisi, si farà uso delle seguenti sezioni del data
   - `OC_FINANZ_TOT_PUB_NETTO`
   - `FINANZ_TOTALE_PUBBLICO`
 - Dati demografici
-
----
-
 
 
 # Architettura Tecnologica
