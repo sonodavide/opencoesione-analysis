@@ -25,3 +25,47 @@ replay_pid*
 data
 data/*
 *.txt
+
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+opencoesione-analysis-frontend/dist
+opencoesione-analysis-frontend/tmp
+opencoesione-analysis-frontend/out-tsc
+opencoesione-analysis-frontend/bazel-out
+
+# Node
+opencoesione-analysis-frontend/node_modules
+opencoesione-analysis-frontendnpm-debug.log
+opencoesione-analysis-frontendyarn-error.log
+
+# IDEs and editors
+opencoesione-analysis-frontend.idea/
+opencoesione-analysis-frontend.project
+opencoesione-analysis-frontend.classpath
+opencoesione-analysis-frontend.c9/
+opencoesione-analysis-frontend*.launch
+opencoesione-analysis-frontend.settings/
+opencoesione-analysis-frontend*.sublime-workspace
+
+# Visual Studio Code
+opencoesione-analysis-frontend.vscode/*
+opencoesione-analysis-frontend!.vscode/settings.json
+opencoesione-analysis-frontend!.vscode/tasks.json
+opencoesione-analysis-frontend!.vscode/launch.json
+opencoesione-analysis-frontend!.vscode/extensions.json
+opencoesione-analysis-frontend.history/*
+
+# Miscellaneous
+opencoesione-analysis-frontend/.angular/cache
+opencoesione-analysis-frontend.sass-cache/
+opencoesione-analysis-frontend/connect.lock
+opencoesione-analysis-frontend/coverage
+opencoesione-analysis-frontend/libpeerconnection.log
+opencoesione-analysis-frontendtestem.log
+opencoesione-analysis-frontend/typings
+
+# System files
+opencoesione-analysis-frontend.DS_Store
+opencoesione-analysis-frontendThumbs.db
