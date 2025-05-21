@@ -142,6 +142,7 @@ Trasversalmente a tutte le analisi, si farà uso delle seguenti sezioni del data
 - **Frontend**: Angular
 - **Backend**: Spring Boot con API REST
 - **Elaborazione dati**: Apache Spark (SparkSQL, MLlib, GraphX)
+- **Orchestrazione**: Kubernetes per gestione dinamica dei job Spark in ambienti distribuiti
 - **Persistenza**: PostgreSQL, MongoDB, FS locale e HDFS
 - **Visualizzazione**: Dashboard Angular
 
