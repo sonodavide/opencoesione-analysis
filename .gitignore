@@ -69,3 +69,5 @@ opencoesione-analysis-frontend/typings
 # System files
 opencoesione-analysis-frontend.DS_Store
 opencoesione-analysis-frontendThumbs.db
+
+data/*
